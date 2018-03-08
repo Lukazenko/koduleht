@@ -1,0 +1,259 @@
+.container {
+  background-color: #EEFC09;
+  width: 1366px;
+  height: 768px; 
+  margin: 0 auto;
+  display: grid;
+
+}
+
+
+
+/***********************************************/
+
+.header {
+  background-color: white;
+  width: 1366px;
+  height: 111px;
+}
+
+.logo {
+	top: 40px;
+	position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 350px;
+    top: -10px;
+    
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #EEFC09;
+    color: black;
+}
+
+.ENG_EST:hover{
+	color: blue;
+}
+
+
+
+.hallkast {
+  background-image: url("img/In english.jpg");
+  position: absolute;
+  left: 1300px;
+  top: 70px;
+  width: 78px;
+  height: 38px;
+  z-index: 34;
+}
+
+.ENG_EST {
+  font-size: 18px;
+  font-family: "Calibri";
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  left: 5px; 
+}
+
+
+/*****************************KESKOSA************************************/
+
+.IKTosakond {
+	font-size: 72px;
+  font-family: "Calibri";
+  color: #00baff;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  position: relative;
+  left: 25px;
+  top: 300px;
+  grid-gap: 250px;
+  padding: 10px;
+  }
+
+
+
+.Sininenupp {
+  background-image: url("img/Siseveeb.jpg");
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  
+}
+
+
+.tekst {
+  font-size: 36px;
+  font-family: "Calibri";
+  color: white;
+}
+
+.tekst:hover{
+	color: black;
+}
+
+
+
+.uudised {
+	background-color: white;
+	width: 692px;
+  	height: 350px;
+  	position: relative;
+  	left: 600px;
+  	top: -150px;
+}
+
+.uudised2 {
+	background-color: white;
+	width: 692px;
+  	height: 350px;
+  	position: relative;
+  	
+}
+
+.uudisedpealkiri {
+	text-align: center;
+	color: blue;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.uudisedpealkirjakast {
+	background-color: #ced3d4;
+	height: 50px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+/********************************FOOTER*********************************************/
+
+
+.footer {
+  background-color: #ced3d4;
+  position: relative;
+  width: 1366px;
+  height: 124px;
+  top: 100px;
+
+  
+}
+
+.suurus1 {
+  font-size: 18px;
+  font-family: "Calibri";
+  color: black;
+  position: relative;
+  left: 25%;
+}
+
+.suurus2 {
+	font-size: 18px;
+  font-family: "Calibri";
+  color: black;
+  position: relative;
+  left: 35%;
+  top: -40px;
+
+}
+
+.suurus3 {
+	font-size: 18px;
+  font-family: "Calibri";
+  color: black;
+  position: relative;
+  left: 35%;
+  top: -55px;
+}
+
+.suurus4 {
+	font-size: 18px;
+  font-family: "Calibri";
+  color: black;
+  position: relative;
+  left: 60%;
+  top: -97px;
+}
+
+.suurus5 {
+	font-size: 18px;
+  font-family: "Calibri";
+  color: black;
+  position: relative;
+  left: 60%;
+  top: -165px;
+}
+
+
+
+
+
+
+/**************************************Erialad******************************************************/
+
+#kalender {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+.Erialad {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+.pealkirjad {
+	font-family: "Calibri";
+  	color: #00baff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
